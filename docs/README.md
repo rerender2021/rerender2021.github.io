@@ -4,10 +4,16 @@ I'm a programmer.
 
 # Product List
 
-
-| Product      | Description |
-| ----------- | ----------- |
-| ![logo-nlp-api](./assets/logo-nlp-api.png)      | [NLP-API](https://github.com/rerender2021/NLP-API/): A python server that provides NLP-related APIs.      |
+<table style="width:100%">
+  <tr style="border:none">
+    <td style="border:none">
+        <a href="https://github.com/rerender2021/NLP-API/"><img src="./assets/logo-nlp-api.png"  width="96px" height="96px"></a>
+    </td>
+    <td style="border:none">
+        <span>A python server that provides NLP-related APIs.</span>
+    </td>
+  </tr>
+</table>
 
 # Blog List
 
