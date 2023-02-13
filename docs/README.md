@@ -7,4 +7,4 @@
 
 # Blog List
 
-- [Announcing NLP-API 1.0.1](./blog/nlp-api-1.0.1/README.md)
+- 2023/2/13 - [Announcing NLP-API 1.0.1](./blog/nlp-api-1.0.1/README.md)
