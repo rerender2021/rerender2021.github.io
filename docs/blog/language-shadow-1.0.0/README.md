@@ -6,4 +6,4 @@
 
 <video src="assets/language-shadow-usage.mp4" controls autoplay style="width: 800"></video>
 
-- 使用方式见：https://github.com/rerender2021/language-shadow
+- 使用方式见：[language-shadow](https://github.com/rerender2021/language-shadow)
