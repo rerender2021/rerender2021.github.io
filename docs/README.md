@@ -21,6 +21,14 @@ I'm a programmer.
         <span>A simple ocr translator powered by avernakis react.</span>
     </td>
   </tr>
+  <tr style="border:none; background-color:#fff">
+    <td style="border:none">
+        <a href="https://github.com/rerender2021/ave-image-diff"><img src="./assets/image-diff.png"  width="96px" height="96px"></a>
+    </td>
+    <td style="border:none">
+        <span>A simple image diff tool powered by avernakis.</span>
+    </td>
+  </tr>
 </table>
 
 # Blog List
