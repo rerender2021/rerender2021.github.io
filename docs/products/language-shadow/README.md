@@ -20,6 +20,7 @@
 - 运行环境要求：至少 Windows 10
 - 下载地址（根据实际需要选择完整下载或仅升级）：https://github.com/rerender2021/language-shadow/releases/tag/1.1.0
 
+下载后双击exe即可运行。
 
 ## 功能说明
 
