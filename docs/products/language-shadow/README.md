@@ -6,7 +6,7 @@
 
 文影 (Language Shadow) 是一个简单的翻译器，它通过 OCR 识别字幕文字，然后再使用本地翻译服务器进行翻译。它有以下特点：
 
-- 完全离线、免费且开源(项目地址：https://github.com/rerender2021/language-shadow)
+- 完全离线、免费且开源(项目地址：[https://github.com/rerender2021/language-shadow](https://github.com/rerender2021/language-shadow))
 - 使用方便：解压缩后双击 exe 即可使用
 
 ![language-shadow-usage](./assets/language-shadow-usage.png)
@@ -18,7 +18,7 @@
 ## 安装
 
 - 运行环境要求：至少 Windows 10
-- 下载地址（根据实际需要选择完整下载或仅升级）：https://github.com/rerender2021/language-shadow/releases/tag/1.1.0
+- 下载地址（根据实际需要选择完整下载或仅升级）：[Release 1.1.0](https://github.com/rerender2021/language-shadow/releases/tag/1.1.0)
 
 下载后双击exe即可运行。
 
