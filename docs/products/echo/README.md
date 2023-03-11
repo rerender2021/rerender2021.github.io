@@ -18,7 +18,7 @@
 ## 安装
 
 - 运行环境要求：至少 Windows 10
-- 下载地址（根据实际需要选择完整下载或仅升级）：[Release 1.0.0](https://github.com/rerender2021/echo/releases/tag/1.0.0)
+- 下载地址：[Release 1.0.0](https://github.com/rerender2021/echo/releases/tag/1.0.0)
 
 下载后双击exe即可运行。
 
