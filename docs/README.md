@@ -29,6 +29,22 @@ I'm a programmer.
         <span>A simple image diff tool powered by avernakis.</span>
     </td>
   </tr>
+  <tr style="border:none; background-color:#fff">
+    <td style="border:none">
+        <a href="https://github.com/rerender2021/ASR-API"><img src="./assets/asr.png"  width="96px" height="96px"></a>
+    </td>
+    <td style="border:none">
+        <span>A python server that provides ASR-related APIs.</span>
+    </td>
+  </tr>
+   <tr style="border:none; background-color:#fff">
+    <td style="border:none">
+        <a href="https://github.com/rerender2021/echo"><img src="./assets/echo.png"  width="96px" height="96px"></a>
+    </td>
+    <td style="border:none">
+        <span>A simple asr translator powered by avernakis react.</span>
+    </td>
+  </tr>
 </table>
 
 # Blog List
