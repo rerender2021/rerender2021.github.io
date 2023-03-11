@@ -1,5 +1,5 @@
 <p align="center">
-    <img width="400" src="./assets/logo-language-shadow.svg">
+    <img width="400" src="./assets/logo-language-shadow.png">
 </p>
 
 ## 简介
