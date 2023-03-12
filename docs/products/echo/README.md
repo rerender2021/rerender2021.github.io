@@ -11,9 +11,9 @@
 
 ![echo-usage](./assets/echo-usage.png)
 
-<!-- 演示视频见:
+演示视频见:
 
-- [文影：实时英语字幕翻译](https://www.bilibili.com/video/BV1Cs4y1j7Qb/) -->
+- [回声：实时英语语音翻译](https://www.bilibili.com/video/BV11L411d7HE/)
 
 ## 安装
 
