@@ -87,7 +87,7 @@ ffmpeg version 2022-02-10-git-b6bb6b9f22-full_build-www.gyan.dev Copyright (c) 2
 
 默认支持 Whisper 类型为 base 的模型（英语 & 多语言），如果需要使用其它模型，可自行下载，并放在 `whisper-gpu-server\model` 下。
 
--   模型下载地址：https://github.com/openai/whisper/discussions/63#discussioncomment-3798552
+-   模型下载地址：[whisper/discussions/63](https://github.com/openai/whisper/discussions/63#discussioncomment-3798552)
 
 
 ### prompt（提示语）
