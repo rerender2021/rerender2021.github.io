@@ -77,7 +77,7 @@ ffmpeg version 2022-02-10-git-b6bb6b9f22-full_build-www.gyan.dev Copyright (c) 2
 
 ### 模型切换
 
-<video src="./assets/change-model.mp4" controls autoplay style="width: 800px"></video>
+<video src="./assets/change-model.mp4" controls autoplay style="width: 800px;height:300px"></video>
 
 自带的 `base.en.pt` 是仅识别英语的模型，如果想识别其它语言的，就需要切换模型。
 
