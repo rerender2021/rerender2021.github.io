@@ -111,7 +111,3 @@ ffmpeg version 2022-02-10-git-b6bb6b9f22-full_build-www.gyan.dev Copyright (c) 2
 <p align="left">
     <img width="300" src="../../assets/donate.jpg">
 </p>
-
-<p align="center">
-    <img width="275" src="./assets/logo-echo.png">
-</p>
