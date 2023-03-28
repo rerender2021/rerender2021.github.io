@@ -47,7 +47,7 @@ SRT to SRT (SRT^2) 是一个字幕翻译工具，它有以下特点：
 
 #### CPU
 
--   CPU 翻译服务器：https://github.com/rerender2021/NLP-API/releases/tag/1.0.1
+-   CPU 翻译服务器：[https://github.com/rerender2021/NLP-API/releases/tag/1.0.1](https://github.com/rerender2021/NLP-API/releases/tag/1.0.1)
 
 最后，确保目录结构是这样的：
 
@@ -60,7 +60,7 @@ SRT to SRT (SRT^2) 是一个字幕翻译工具，它有以下特点：
 
 #### GPU
 
--   GPU 翻译服务器：https://github.com/rerender2021/NLP-GPU-API/releases/tag/1.0.0
+-   GPU 翻译服务器：[https://github.com/rerender2021/NLP-GPU-API/releases/tag/1.0.0](https://github.com/rerender2021/NLP-GPU-API/releases/tag/1.0.0)
    
 下载后，解压到项目下，确保项目目录结构如下：
 
