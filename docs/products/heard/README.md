@@ -11,16 +11,16 @@
 
 ![heard-usage](./assets/heard-usage.png)
 
-<!-- 演示视频见:
+演示视频见:
 
-- [回声：实时英语语音翻译](https://www.bilibili.com/video/BV11L411d7HE/) -->
+- [听到了！Whisper & GPU 离线字幕提取](https://www.bilibili.com/video/BV1FN411N7a5/)
 
 ## 环境准备
 
 - 系统环境要求：至少 Windows 10
 - 运行环境要求
   - GPU：需要 cuda 环境，版本 11.7：[cuda-11-7-0-download](https://developer.nvidia.com/cuda-11-7-0-download-archive?target_os=Windows&target_arch=x86_64)
-  - ffmpeg：这个应该没有版本强要求: https://ffmpeg.org/
+  - ffmpeg：这个应该没有版本强要求: [https://ffmpeg.org/](https://ffmpeg.org/)
 
 需要注意验证 cuda 和 ffmpeg 是否成功安装，方法：
 
