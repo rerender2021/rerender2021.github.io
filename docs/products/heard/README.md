@@ -47,7 +47,7 @@ ffmpeg version 2022-02-10-git-b6bb6b9f22-full_build-www.gyan.dev Copyright (c) 2
 
 - 本地离线 Whisper 服务器：[Whisper-API 1.0.0](https://github.com/rerender2021/Whisper-API/releases/tag/1.0.0)
 
-- 听到了! (Heard) 下载地址：[Release 1.0.0](https://github.com/rerender2021/heard/releases/tag/1.0.0)
+- 听到了! (Heard) 下载地址：[Release 1.0.1](https://github.com/rerender2021/heard/releases/tag/1.0.1)
 
 最后，确保目录结构是这样的：
 
@@ -55,7 +55,7 @@ ffmpeg version 2022-02-10-git-b6bb6b9f22-full_build-www.gyan.dev Copyright (c) 2
 - whisper-gpu-server
     - ...其它文件
     - Whisper-API.exe
-- heard-v1.0.0.exe
+- heard-v1.0.1.exe
 ```
 
 然后双击 exe 即可运行。
