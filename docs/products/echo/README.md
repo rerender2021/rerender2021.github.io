@@ -13,20 +13,71 @@
 
 演示视频见:
 
-- [回声：实时英语语音翻译](https://www.bilibili.com/video/BV11L411d7HE/)
+- v1.0.0: [回声：实时英语语音翻译](https://www.bilibili.com/video/BV11L411d7HE/)
+<!-- - v1.1.0:  -->
 
-## 安装
+## 环境准备
 
-- 运行环境要求：至少 Windows 10
-- 下载地址：[Release 1.0.0](https://github.com/rerender2021/echo/releases/tag/1.0.0)
-
-下载后双击exe即可运行。
+- 系统环境要求：至少 Windows 10
+- 运行环境要求
+    - GPU：如果希望GPU模式运行，需要 cuda 环境，版本 11.7：[cuda-11-7-0-download](https://developer.nvidia.com/cuda-11-7-0-download-archive?target_os=Windows&target_arch=x86_64)
+需要注意验证 cuda 是否成功安装，方法：命令行输入 `nvcc -V`，看输出：
+```
+  Copyright (c) 2005-2022 NVIDIA Corporation
+  Built on Tue_May__3_19:00:59_Pacific_Daylight_Time_2022
+  Cuda compilation tools, release 11.7, V11.7.64
+  Build cuda_11.7.r11.7/compiler.31294372_0
+```
 
 ## 设置
 
 需要将电脑上声音的输入设备设置为「 立体声混音 」：
 
 ![input-device](./assets/input-device.png)
+
+## 下载安装
+
+环境准备好后，下载：
+
+- 语音识别服务器：[ASR-API 1.1.0](https://github.com/rerender2021/ASR-API/releases/download/1.1.0/asr-server-v1.1.0.zip)
+
+- 翻译服务器（任选其一）
+  - GPU 版：下载链接中的2个压缩分卷并解压缩（文件太大，只能分卷压缩上传）
+    - [NLP-GPU-API 1.0.0](https://github.com/rerender2021/NLP-GPU-API/releases/tag/1.0.0) 
+  
+  - CPU 版：下载后注意重命名文件夹名，见以下目录结构说明
+    - [NLP-API 1.0.1](https://github.com/rerender2021/NLP-API/releases/download/1.0.1/NLP-API-v1.0.1.zip)
+
+- 回声 (Echo) 下载地址：[Release 1.1.0](https://github.com/rerender2021/echo/releases/tag/1.1.0)
+
+最后，确保目录结构是这样的：
+
+CPU模式：
+```
+- asr-server-v1.1.0
+    - ...其它文件
+    - ASR-API.exe
+- nlp-server
+    - ...其它文件
+    - NLP-API.exe
+- echo-v1.1.0.exe
+```
+
+GPU模式：
+```
+- asr-server-v1.1.0
+    - ...其它文件
+    - ASR-API.exe
+- nlp-gpu-server
+    - ...其它文件
+    - NLP-GPU-API.exe
+- echo-v1.1.0.exe
+```
+
+然后双击 exe 即可运行。
+
+成功运行并使用GPU后，窗口标题文字会包含GPU：Echo (GPU)。
+
 
 ## 功能说明
 
@@ -42,20 +93,18 @@
 
 开启语音识别后字幕区会有英文字幕和中文翻译，关闭后字幕区不再更新。注意：首次开启可能会等待一段时间才会出字幕。
 
-### 标点恢复
+### 长句分解
 
-默认情况下，语音识别出的英文是没有标点的，这会影响翻译的准确性。勾选「 标点恢复 」可生成带标点的英文，优点是翻译更准确，但缺点也很明显：耗时会增加。
+默认情况下，语音识别出的英文会是一大段话，这会影响翻译的速度和准确性。勾选「 长句分解 」可分解为短句。
 
 
 ### 字幕置顶
 
-默认情况下，生成的字幕框始终会在窗口最上层。如果这不是想要的，那么可以自己切换：
-
-![set-topmost](./assets/set-topmost.gif)
+默认情况下，生成的字幕框始终会在窗口最上层。如果这不是想要的，那么可以自己切换。
 
 ### 自定义超时时间
 
-默认情况下，如果 4s 都没能完成一次 语音识别或翻译，那么此次翻译将跳过。这个时间可根据自己的设备来调整，只需用文本编辑器打开`config.json`，编辑 `timeout` 后的数值。注意单位是毫秒（ms）。
+默认情况下，如果 3.5s 都没能完成一次 语音识别或翻译，那么此次翻译将跳过。这个时间可根据自己的设备来调整，只需用文本编辑器打开`config.json`，编辑 `timeout` 后的数值。注意单位是毫秒（ms）。
 
 ## 问题诊断
 
