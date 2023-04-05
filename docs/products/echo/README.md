@@ -14,7 +14,10 @@
 演示视频见:
 
 - v1.0.0: [回声：实时英语语音翻译](https://www.bilibili.com/video/BV11L411d7HE/)
-<!-- - v1.1.0:  -->
+
+- v1.1.0: [回声更新：支持使用GPU & 长句分解](https://www.bilibili.com/video/BV1Qa4y1M7jV/)
+
+
 
 ## 环境准备
 
