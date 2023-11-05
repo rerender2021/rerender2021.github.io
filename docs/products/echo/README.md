@@ -53,6 +53,8 @@
 
 - 回声 (Echo) 下载地址：[Release 1.1.0](https://github.com/rerender2021/echo/releases/tag/1.1.0)
 
+也可加qq群：949175734，在群文件中下载
+
 最后，确保目录结构是这样的：
 
 CPU模式：
@@ -113,10 +115,29 @@ GPU模式：
 
 如遇无法正常使用，可下载对应版本的调试包进行问题排查，方法是：下载`echo-vx.x.x-debug-exe.zip`，双击打开exe，在弹出的小黑窗中会有详细报错信息，将其截图，然后进行问题反馈。
 
-## 使用心得
 
-- 如果视频速度太快，翻译跟不上，可以将视频速度调慢一些
-- 此软件不能多开，不然会使用异常，无法翻译
+也可以加qq群反馈：949175734。
+
+## 常见问题
+
+如果遇到无法使用的情况，可以先参考这里的解决方法：
+
+1. 安装：注意安装路径中不能有中文，可能的报错特征
+
+```bash
+stderr: ERROR:root:[WinError 1225]
+```
+
+2. 多开：需要注意是否不小心打开了多次，此软件不能多开，不然会使用异常，无法翻译
+3. 排查过程中，控制台报错信息是乱码：将系统语言设置为英文，看控制台中报错乱码是否消失
+4. 全局安装过g++：移除即可，报错特征：
+
+```bash
+stderr: Problem occurred during compilation with the command line below:
+
+stderr: "C:\Program Files\mingw64\bin\g++.exe" ...
+```
+5. 没有立体声混音选项：可能是电脑禁用了，结合自己电脑情况，可以网上搜一下怎么配置或修复之类的，比如 [link 1]( https://answers.microsoft.com/zh-hans/windows/forum/all/win11%E6%B2%A1%E6%9C%89%E7%AB%8B%E4%BD%93%E5%A3%B0/255778cb-dde4-43d8-97dc-98891545bb24) 或者 [link 2](https://answers.microsoft.com/zh-hans/windows/forum/all/%E5%A3%B0%E9%9F%B3%E8%BE%93%E5%85%A5%E4%B8%AD/240fb9a0-6465-490c-ae70-c8a5cb3d1867)
 
 ## 赞赏
 
