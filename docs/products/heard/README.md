@@ -62,6 +62,8 @@ ffmpeg version 2022-02-10-git-b6bb6b9f22-full_build-www.gyan.dev Copyright (c) 2
 
 成功运行并使用GPU后，窗口标题文字会包含GPU：Heard (GPU)。
 
+也可加qq群：949175734，在群文件中下载
+
 ## 功能说明
 
 ### 生成字幕
@@ -100,9 +102,25 @@ ffmpeg version 2022-02-10-git-b6bb6b9f22-full_build-www.gyan.dev Copyright (c) 2
 
 如遇无法正常使用，可下载对应版本的调试包进行问题排查，方法是：下载`heard-vx.x.x-debug-exe.zip`，双击打开 exe，在弹出的小黑窗中会有详细报错信息，将其截图，然后进行问题反馈。
 
-## 使用心得
+也可以加qq群反馈：949175734。
 
-- 此软件不能多开，不然会使用异常
+## 常见问题
+
+如果遇到无法使用的情况，可以先参考这里的解决方法：
+
+1. 安装：注意安装路径中不能有中文
+2. 排查过程中，控制台报错信息是乱码：将系统语言设置为英文，看控制台中报错乱码是否消失
+3. 代理相关：报错特征如下：
+
+```bash
+ERROR: Exception in ASGI application
+
+ssl.SSLError: [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1131)
+
+requests.exceptions.ProxyError: HTTPSConnectionPool(host='openaipublic.blob.core.windows.net', port=443): Max retries exceeded with url: /gpt-2/encodings/main/vocab.bpe (Caused by ProxyError('Your proxy appears to only use HTTP and not HTTPS, try changing your proxy URL to be HTTP.
+```
+
+这种情况是电脑开了代理软件，需要关闭全局代理。
 
 ## 赞赏
 
