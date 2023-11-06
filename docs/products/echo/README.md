@@ -139,6 +139,8 @@ stderr: "C:\Program Files\mingw64\bin\g++.exe" ...
 ```
 -  没有立体声混音选项：可能是电脑禁用了，结合自己电脑情况，可以网上搜一下怎么配置或修复之类的，比如 [link 1]( https://answers.microsoft.com/zh-hans/windows/forum/all/win11%E6%B2%A1%E6%9C%89%E7%AB%8B%E4%BD%93%E5%A3%B0/255778cb-dde4-43d8-97dc-98891545bb24) 或者 [link 2](https://answers.microsoft.com/zh-hans/windows/forum/all/%E5%A3%B0%E9%9F%B3%E8%BE%93%E5%85%A5%E4%B8%AD/240fb9a0-6465-490c-ae70-c8a5cb3d1867)
 
+- 有立体声混音选项，但播放视频时测试的音量条没有跳动，或用耳机情况下无法使用：可以参考 [link](https://zhuanlan.zhihu.com/p/488140531) 试试
+
 ## 赞赏
 
 `:)` 如果此软件值得赞赏，可以请作者看小说，一元足足可看八章呢。
