@@ -17,7 +17,7 @@
 
 - v1.1.0: [回声更新：支持使用GPU & 长句分解](https://www.bilibili.com/video/BV1Qa4y1M7jV/)
 
-
+- v1.2.0: [回声更新：支持历史字幕 & 自助问题排查](https://www.bilibili.com/video/BV1XN411g7tF/)
 
 ## 环境准备
 
@@ -51,7 +51,7 @@
   - CPU 版：下载后注意重命名文件夹名，见以下目录结构说明
     - [NLP-API 1.0.1](https://github.com/rerender2021/NLP-API/releases/download/1.0.1/NLP-API-v1.0.1.zip)
 
-- 回声 (Echo) 下载地址：[Release 1.1.0](https://github.com/rerender2021/echo/releases/tag/1.1.0)
+- 回声 (Echo) 下载地址：[Release 1.2.0](https://github.com/rerender2021/echo/releases/tag/1.2.0)
 
 也可加qq群：949175734，在群文件中下载
 
@@ -65,7 +65,8 @@ CPU模式：
 - nlp-server
     - ...其它文件
     - NLP-API.exe
-- echo-v1.1.0.exe
+- echo-web-ui-v1.2.0
+- echo-v1.2.0.exe
 ```
 
 GPU模式：
@@ -76,7 +77,8 @@ GPU模式：
 - nlp-gpu-server
     - ...其它文件
     - NLP-GPU-API.exe
-- echo-v1.1.0.exe
+- echo-web-ui-v1.2.0
+- echo-v1.2.0.exe
 ```
 
 然后双击 exe 即可运行。
