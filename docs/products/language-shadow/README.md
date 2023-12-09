@@ -15,13 +15,65 @@
 
 - [文影：实时英语字幕翻译](https://www.bilibili.com/video/BV1Cs4y1j7Qb/)
 
+## 环境准备
+
+- 系统环境要求：至少 Windows 10
+- 运行环境要求
+    - GPU：如果希望GPU模式运行，需要 cuda 环境，版本 11.7：[cuda-11-7-0-download](https://developer.nvidia.com/cuda-11-7-0-download-archive?target_os=Windows&target_arch=x86_64)
+需要注意验证 cuda 是否成功安装，方法：命令行输入 `nvcc -V`，看输出：
+```
+  Copyright (c) 2005-2022 NVIDIA Corporation
+  Built on Tue_May__3_19:00:59_Pacific_Daylight_Time_2022
+  Cuda compilation tools, release 11.7, V11.7.64
+  Build cuda_11.7.r11.7/compiler.31294372_0
+```
+
 ## 安装
 
-- 运行环境要求：至少 Windows 10
-- 下载地址（根据实际需要选择完整下载或仅升级）：[Release 1.1.0](https://github.com/rerender2021/language-shadow/releases/tag/1.1.0)
-  - 也可加qq群：949175734，在群文件中下载
+环境准备好后，下载：
 
-下载后双击exe即可运行。
+- OCR 服务器：[OCR-API 1.0.1](https://github.com/rerender2021/PaddleocrAPI/releases/download/1.0.1/PaddleocrAPI.zip)
+
+- 翻译服务器（任选其一）
+  - GPU 版：下载链接中的2个压缩分卷并解压缩（文件太大，只能分卷压缩上传）
+    - [NLP-GPU-API 1.0.0](https://github.com/rerender2021/NLP-GPU-API/releases/tag/1.0.0) 
+  
+  - CPU 版：下载后注意重命名文件夹名，见以下目录结构说明
+    - [NLP-API 1.0.1](https://github.com/rerender2021/NLP-API/releases/download/1.0.1/NLP-API-v1.0.1.zip)
+
+- 文影 (Language Shadow) 下载地址：[Release 1.2.0](https://github.com/rerender2021/language-shadow/releases/tag/1.2.0)
+
+也可加qq群：949175734，在群文件中下载
+
+最后，确保目录结构是这样的：
+
+CPU模式：
+```
+- ocr-server
+    - ...其它文件
+    - PaddleocrAPI.exe
+- nlp-server
+    - ...其它文件
+    - NLP-API.exe
+- language-shadow-web-ui-v1.2.0
+- language-shadow-v1.2.0.exe
+```
+
+GPU模式：
+```
+- ocr-server
+    - ...其它文件
+    - PaddleocrAPI.exe
+- nlp-gpu-server
+    - ...其它文件
+    - NLP-GPU-API.exe
+- language-shadow-web-ui-v1.2.0
+- language-shadow-v1.2.0.exe
+```
+
+然后双击 exe 即可运行。
+
+成功运行并使用GPU后，窗口标题文字会包含GPU：Language Shadow (GPU)。
 
 ## 功能说明
 
