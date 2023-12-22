@@ -33,7 +33,7 @@
 
 环境准备好后，下载：
 
-- OCR 服务器：[OCR-API 1.0.1](https://github.com/rerender2021/PaddleocrAPI/releases/download/1.0.1/PaddleocrAPI.zip)
+- OCR 服务器：[OCR-API 1.0.1](https://github.com/rerender2021/PaddleocrAPI/releases/download/1.0.1/PaddleocrAPI.zip)：下载后注意重命名文件夹名，见以下目录结构说明
 
 - 翻译服务器（任选其一）
   - GPU 版：下载链接中的2个压缩分卷并解压缩（文件太大，只能分卷压缩上传）
